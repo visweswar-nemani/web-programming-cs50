@@ -1,0 +1,34 @@
+body {
+  font-size: 18px;
+  background-color: #ecf7e1;
+  margin: 18px;
+}
+
+body {
+  padding: 10px;
+}
+body .heading {
+  text-align: center;
+  font-size: 26px;
+  color: #f45942;
+  font-weight: bold;
+  font-variant-caps: all-petite-caps;
+}
+body .side-heading {
+  color: #f45942;
+  font-style: italic;
+}
+body .listing {
+  color: #000;
+  font-family: sans-serif;
+}
+body .directory {
+  margin-top: 20px;
+  font-family: monospace;
+  font-size: 14px;
+}
+body ul > li {
+  margin: 10px;
+}
+
+/*# sourceMappingURL=industry.css.map */

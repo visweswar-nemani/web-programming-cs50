@@ -1,0 +1,41 @@
+$main:18px;
+$highlight:#f45942;
+$basecolor:#ecf7e1;
+
+%common{
+	font-size: $main;
+	background-color: $basecolor;
+	margin: $main;
+}
+
+body{
+	@extend %common;
+    padding:10px;
+    
+    .heading{
+		text-align: center;
+		font-size: 26px;
+		color:$highlight ;
+        font-weight: bold;
+        font-variant-caps: all-petite-caps;
+
+	}
+	.side-heading{
+		color: $highlight;
+		font-style: italic;     
+	}
+	.listing{	
+		color: #000;
+		font-family: sans-serif;
+	}
+		
+	.directory{
+	margin-top:20px;
+	font-family: monospace;
+	font-size:14px;
+	}
+	ul>li{
+	margin:10px;
+	}
+
+}
